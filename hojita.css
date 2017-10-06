@@ -1,0 +1,42 @@
+body {
+	background-color: #ffe4e1;	
+	
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #3498db;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important ;
+    line-height: 1.42857143 !important ;
+    letter-spacing: 4px;
+    border-radius: 0;
+    border-bottom:  inset #4da6ff;
+
+}
+#bloque {
+	padding-top: 65px; }
+.imagen {margin:0 auto;transition: box-shadow 4.5s;}	
+.row{margin-top: 60px;}
+.fondito {position: relative;}
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 100px; 
+   width: 100%; 
+}
+h2 span { 
+   color: white; 
+   font: bold 32px/45px Oswald, Sans-Serif; 
+   letter-spacing: 0.5px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.2);
+   padding: 0px 10px; 
+   line-height: 1.53;
+}
+h2 span.spacer {
+	
+   background: rgba(0, 0, 0, 0.001);
+   padding: 0 10px;
+}
