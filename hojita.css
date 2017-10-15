@@ -12,7 +12,8 @@ body {
     line-height: 1.42857143 !important ;
     letter-spacing: 4px;
     border-radius: 0;
-    border-bottom:  inset #4da6ff;
+    border-bottom:  double #4da6ff;
+    border-width: 7px;
 
 }
 #bloque {
