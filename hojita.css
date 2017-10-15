@@ -42,8 +42,9 @@ h2 span.spacer {
    padding: 0 10px;
 }
 .overimage{
+
    position: absolute;
-  margin-top: 60px;
+   margin-top: 60px;
   margin-left: 1225px;
-height:333px;
-   }
+  height:333px;
+}
