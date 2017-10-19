@@ -1,5 +1,7 @@
 body {
-	background-color: #ffe4e1;	
+	  background-image: url("Fondo.png");
+	  background-repeat: no-repeat;
+	  background-color: #ffe4e1; 
 	
 }
 
@@ -16,6 +18,30 @@ body {
     border-width: 7px;
 
 }
+.navbar-header>{
+  float: left !important;
+}
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.introduction{
+	font: bold 36px/75px Oswald, Sans-Serif; 
+	margin-top:11%;
+    margin-left: 5%;
+    letter-spacing: 0.5px; 
+    width: 100%; 
+    color:white;
+    line-height: 1.5;   
+    padding: 0px 10px; 
+}
+
+.introduction span {
+	background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*
 #bloque {
 	padding-top: 65px; }
 .imagen {margin:0 auto;transition: box-shadow 4.5s;}	
@@ -23,7 +49,7 @@ body {
 .fondito {position: relative;}
 h2 { 
    position: absolute; 
-   top: 150px; 
+   margin-top:10%;
    left: 100px; 
    width: 100%; 
 }
@@ -41,10 +67,6 @@ h2 span.spacer {
    background: rgba(0, 0, 0, 0.001);
    padding: 0 10px;
 }
-.overimage{
 
-   position: absolute;
-   margin-top: 5%;
-  margin-left: 60%;
-  height:35%;
-}
+
+*/
