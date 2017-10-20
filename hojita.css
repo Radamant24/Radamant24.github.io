@@ -41,7 +41,7 @@ body {
 #mobilePortrait{
     position:absolute;
     max-width:45%;
-    max-height:45%;
+    max-height:60%;
     top:45%;
     left:35%;
     overflow:visible;
