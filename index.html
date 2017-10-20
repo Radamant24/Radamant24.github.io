@@ -2,10 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
+  	
 
     <!-- Required meta tags -->
     <!-- <meta charset="utf-8">
@@ -50,10 +47,19 @@
   </div>
   
 
-	<div">
-		<h2  class="introduction"><span>Hello! I'm a software developer from Buenos Aires, Argentina.</span> <br/>
-		<span> I'm currently learning JavaScript, Node.js and Linux  </span></h2>
-	</div>
+	       <div class="row"> 
+          <div class="col-md-6">      
+  		    <h2  class="introduction"><span>Hello! I'm a software developer from Buenos Aires, Argentina.</span> <br/>
+  		    <span> I'm currently learning JavaScript, Node.js and Linux  </span></h2>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" id="portraitPic">
+          <img class="img-responsive" src="Portrait.png" height="250" width="250" >
+          </div>
+        </div>
+        <img class="img-responsive" src="Portrait.png" height="160" width="160" id="mobilePortrait">
+ 
 
 
 <!--
@@ -80,5 +86,7 @@
 <img class="img-responsive imagen "  src="https://media3.giphy.com/media/fNsWHnEnshyYo/giphy-facebook_s.jpg?t=1" alt="Ejemplo">
 
    -->
+   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>

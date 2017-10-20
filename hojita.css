@@ -22,7 +22,7 @@ body {
 
 .introduction{
 	font: bold 36px/75px Oswald, Sans-Serif; 
-	margin-top:   15%;
+	margin-top:   150px;
     margin-left: 5%;
     letter-spacing: 0.5px; 
     width: 100%; 
@@ -35,6 +35,49 @@ body {
     background: rgba(0, 0, 0, 0.2);
 }
 
+#portraitPic{
+	margin-top: 100px;
+}
+#mobilePortrait{
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:30%;
+    left:35%;
+    overflow:visible;
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+    #portraitPic
+    {
+    display: none;
+  }
+  }
+@media only screen and (max-width: 750px) {
+  .introduction{
+        font-size: 29px;
+        margin-top: 100px;
+    }  
+    #mobilePortrait{
+    display: block;
+  }
+  }
+
+@media only screen and (max-width: 700px) {
+  .introduction{
+        font-size: 21px;
+        margin-top: 100px;
+    }  
+  }
+  @media only screen and (max-width: 450px) {
+  .introduction{
+        font-size: 17px;
+        margin-top: 100px;
+    }  
+  }
 /*
 #bloque {
 	padding-top: 65px; }
