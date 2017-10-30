@@ -37,23 +37,21 @@ body {
 
 #portraitPic{
 	margin-top: 100px;
+	
 }
-#mobilePortrait{
-    position:absolute;
-    max-width:45%;
-    max-height:60%;
-    top:45%;
-    left:27%;
-    overflow:visible;
-    display: none;
-}
+
 
 
 @media only screen and (max-width: 1000px) {
     
     #portraitPic
     {
-    display: none;
+   	 margin:auto !important;
+   	 margin-top:40px !important;
+    	height:200px;
+    	width: 200px;
+
+
   }
   }
 @media only screen and (max-width: 750px) {
@@ -61,49 +59,20 @@ body {
         font-size: 29px;
         margin-top: 100px;
     }  
-    #mobilePortrait{
-    display: block;
-  }
+   
   }
 
 @media only screen and (max-width: 700px) {
   .introduction{
         font-size: 21px;
-        margin-top: 100px;
+        margin-top: 100px; 
     }  
+
   }
   @media only screen and (max-width: 450px) {
   .introduction{
         font-size: 17px;
         margin-top: 100px;
     }  
+    
   }
-/*
-#bloque {
-	padding-top: 65px; }
-.imagen {margin:0 auto;transition: box-shadow 4.5s;}	
-.row{margin-top: 60px;}
-.fondito {position: relative;}
-h2 { 
-   position: absolute; 
-   margin-top:10%;
-   left: 100px; 
-   width: 100%; 
-}
-h2 span { 
-   color: white; 
-   font: bold 36px/75px Oswald, Sans-Serif; 
-   letter-spacing: 0.5px;  
-   background: rgb(0, 0, 0); 
-   background: rgba(0, 0, 0, 0.2);
-   padding: 0px 10px; 
-   line-height: 1.5;
-}
-h2 span.spacer {
-	
-   background: rgba(0, 0, 0, 0.001);
-   padding: 0 10px;
-}
-
-
-*/
