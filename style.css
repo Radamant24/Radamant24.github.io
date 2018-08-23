@@ -1,0 +1,405 @@
+body, html{
+  margin: 0;
+  width:100%;
+  background-color:	#eaeaea;
+  font-family: 'Philosopher', sans-serif;
+  text-shadow: -0.6px -0.6px 0 #000, 0.6px -0.6px 0 #000, -0.6px 0.6px 0 #000, 0.6px 0.6px 0 #000;   
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration:none;
+}
+
+#showcase  h1{
+  padding-top:100px;
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+
+#showcase  img{
+  padding-bottom:50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #3498db;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family: 'Cabin Condensed', sans-serif !important;
+  border-bottom:  double #59abfd;
+  border-width: 7px;
+  z-index: 4;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(245, 188, 82);
+}
+
+.active {
+  font-size: 1.5rem !important ;
+  padding-top:0.5rem !important;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.cont {
+  width:92%;
+  margin:auto;
+}
+#showcase {
+  min-height: 500px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(52,152,219,1) 0%, rgba(74,195,241,0.2721463585434174) 100%);
+  background-repeat: no-repeat;
+  border-bottom: solid #3498db;
+  border-width: 5px;
+  font-size: 1.2rem;
+
+}
+
+
+
+#showcase img {
+  padding-top:2em;   
+  width: 175px;
+  height: 175px;
+}
+
+#about {
+  min-height: 600px;
+  border-bottom: solid #59abfd;
+  border-width: 5px;
+  font-size: 1.8em;
+  color: #2691FD;
+  
+}
+#about h1  {
+  padding: 1.5em;
+  padding-bottom: 1em;
+  margin-bottom:0;
+}
+#textdesc ul{
+  list-style-type: none;
+}
+li {
+  margin:0 0 1.5em 0;
+  padding-right: 1.5em; 
+  padding-left: 1.5em;    
+}
+
+
+#about .content-wrap img {
+  display: none;
+}
+#about .content-wrap ul{
+  list-style-type: none !important;
+  padding-left:3em;
+  margin-top:0;  
+  
+}
+#about .content-wrap ul li{
+  padding-bottom: 1em;
+  
+}
+#projects  {
+  padding-bottom: 4em;
+  margin-bottom:0;
+  min-height: 600px;
+  border-bottom: solid #59abfd;
+  border-width: 5px;
+  font-size: 1.8em;
+  color: #2691FD;
+  
+}
+
+#projects h1 {
+  padding-left: 65px;
+}
+
+#cards  {
+  width: 300px;
+  height: 600px;
+  border: 7px   double rgb(230, 151, 5);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#cards  .row {
+  display: flex;
+  justify-content: center;
+}
+
+#cards .project {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#cards .link {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(158, 157, 157);
+  text-align: center;
+  text-decoration: none;
+  margin-left:2px;
+}
+
+#pr1 {
+  background-image: url(shortener.png);
+  background-size:cover;
+}
+#pr2 {
+  background-image: url(timestamp.png);
+  background-size:cover;
+}
+#pr3{
+  background-image: url(thisSite.png);
+  background-size: cover;
+}
+#pr1:hover, #pr2:hover, #pr3:hover {
+  background-image:none;
+  background-color:rgb(245, 188, 82);
+}
+#pr1:hover p, #pr2:hover p, #pr3:hover p{
+  opacity: 1;
+}
+#pr1 p, #pr2 p, #pr3 p {
+  opacity: 0.3;
+}
+
+#education {
+  padding-bottom: 4em;
+  margin-bottom:0;
+  min-height: 400px;
+  font-size: 1.8em;
+  color: #2691FD;
+  border-bottom: solid #59abfd;
+  border-width: 5px;  
+}
+
+
+#education h2{
+
+  font-size: 0.74em;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 2em;
+
+}
+#tag{
+  padding-left:65px;
+  padding-bottom:0.5em;
+}
+
+#progressbar {
+  background-color: rgb(65, 65, 65);
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 50%;
+  margin:auto;
+}
+
+#progressbar > div {
+   background-color: rgb(41, 160, 61);
+   width: 25%; /* Adjust with JavaScript */
+   height: 20px;
+   border-radius: 10px;
+}
+
+
+
+#cards .link:hover {
+  color: #4b91d6;
+  margin-bottom:10px;
+}
+
+#fcc {
+  text-align: center;
+  margin-top:50px;
+}
+#fcc .link {
+  font-size:2em !important;
+  align-items: center;
+  position:sticky;
+  text-align: center;
+  text-decoration: none;
+  color:rgb(233, 158, 20);
+}
+#fcc .link:hover {
+  
+  color:rgb(230, 93, 39);
+}
+
+#contact {
+  padding-bottom: 4em;
+  margin-bottom:5px;
+  min-height: 200px;
+  border-bottom: dotted #016edb;
+  border-width: 20px;
+  font-size: 1.8em;
+  color: #2691FD;
+}
+.icons {
+  text-align: center;
+  font-size:3.8em;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (min-width: 700px) {
+
+  #showcase {
+    
+    font-size: 1.6rem !important;
+  
+  }
+  
+  
+ 
+
+  #cards {
+    width: 80%;
+    height: 600px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
+ 
+  #cards .project {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    margin: 0 4px;
+    
+    
+  }
+  #cards  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  
+  
+  
+  
+}
+
+@media (min-width: 900px) {
+  #about {
+    position: relative;
+    min-height: 509px;
+    display: flex;
+    align-items: center;
+    background: url(focus.png);
+    background-position: right;
+    background-repeat: no-repeat;   
+  }
+
+  #showcase  h1{
+    padding-left: 16vw;
+    padding-right:16  asvw;
+  }
+
+  #showcase img {   
+    width: 225px;
+    height: 225px;
+  }
+
+  #textdesc {
+    z-index: 1;
+  }
+
+  #textdesc ul {
+    padding-left: 4em;
+    padding-right:20em;
+  }
+
+
+  #about h1 {
+    margin-top:0;
+    padding-top: 0;
+
+  }
+
+  #about img {
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 0;
+    
+  }
+  li {  
+    margin:0 0 1em 0 !important;
+     
+  }
+  #progressbar {
+    width: 35% ;
+  }
+  #uni {
+    text-align:center;
+    margin-left:0 !important;
+  }
+
+
+ }

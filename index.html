@@ -1,68 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  	
-
-    <!-- Required meta tags -->
-    <!-- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="hojita.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="device-width, initial-scale=1.0"/>
-
-    
-    <title>Alejandro Gallarati - Developer</title>
-  </head>
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Philosopher:400i" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="icon" href="if_Briefcase_132579.ico">
+    <title>Alejandro Gallarati - Dev</title>
+</head>
 <body>
-<div class="container-fluid">
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-    	<div class="navbar-header">
-    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-    			<span class="icon-bar"></span>
-    			<span class="icon-bar"></span>
-    			<span class="icon-bar"></span>
-    		</button>
-  			<p class="navbar-brand" style="font-size: 15px; ";">Alejandro Gallarati</p>
-  		</div>
+  
+    <div class="topnav" id="myTopnav">
+        <a onclick='topFunction()' class="active">Home</a>
+        <a onclick="slide('about')">About</a>
+        <a onclick="slide('projects')">Projects</a>
+        <a onclick="slide('education')">Education</a>
+        <a onclick="slide('contact')">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-  	<div class="collapse navbar-collapse navHeaderCollapse">
-  		<ul class="nav navbar-nav" style="margin-top: 5px">
-      		<li><a href="#">Home</a></li>
-      		<li><a href="#">Information</a></li>
-      		<li><a href="https://www.linkedin.com/in/alejandro-gallarati-7690b5141/" target="_blank">LinkedIn</a></li>
-     		<li><a href="#">Contact</a></li>
-    	</ul>
- 	 </div>
-	</nav>
-  </div>
+  <header id="showcase" >
+      <div class="cont">
+        <h1>Hi! I am Alejandro Gallarati, a software developer from Buenos Aires, Argentina.</h1>
+      </div>
+      
+      <img src="Portrait.png" alt="">
+    
+  </header>
+
+  <section id="about">
+
+        <div id='textdesc'>
+            <h1>About:</h1>
+            <ul>
+              <li>Age: 19</li>
+              <li>Skillset: Javascript, C++, Node.JS, SQL, HTML5 and CSS</li>
+              <li>Also, I attend to conferences and meetups such as FreeCodeCampBA</li>
+            </ul>
+        </div>
+                
+  </section>
+
+  <section id="projects">
+    <h1>Projects:</h1>
+    <div id="cards">
+      <div class="row">
+        <div class="project" id='pr1'><p id='htag1'>Link shortener</p></div>
+        <div class="link"><a href="https://shrtr.glitch.me/" target="_blank" class="fas fa-link"></a></div>
+      </div>
+      <div class="row">
+        <div class="project" id='pr2'><p id='htag2'>Timestamp converter</p></div>
+        <div class="link"><a href="https://timestamp-date-converter.glitch.me/" target="_blank" class="fas fa-link"></a></div>
+      </div>
+      <div class="row">
+        <div class="project" id='pr3'><p id='htag3'>This site!</p></div>
+        <div class="link"><a href="https://github.com/Radamant24/Radamant24.github.io" target="_blank"  class="fas fa-link"></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h1 id="tag">Education:</h1>
+    <h2 id="uni">IT Engineering (at UNLaM):  <br> &nbsp; 11/45 Subjects</h2>
+    <div id="progressbar">
+      <div></div>
+    </div>
+    <div id="fcc">
+      <h2>FullStack Dev (At FreeCodeCamp)</h2>
+      <div class="link"><a href="https://www.freecodecamp.org/radamant24" target="_blank" class="fab fa-free-code-camp"></a></div>
+
+    </div>
+    
+  </section>
+
+  <section id="contact">
+      <h1 id="tag">Contact</h1>
+      <div class="icons">
+          <a href="https://www.linkedin.com/in/alejandro-gallarati-7690b5141" target="_blank" class="fab fa-linkedin"></a>
+          <a href="https://github.com/Radamant24/" target="_blank" class="fab fa-github"></a>
+          <a href="mailto:alejandrogallarati@gmail.com" target="_blank" class="far fa-envelope"></a>
+      </div>
+      
+
+
+      
+
+
+    </section>
   
 
-	       <div class="row"> 
-          <div class="col-md-6">      
-  		    <h2  class="introduction"><span>Hi! I'm a software developer from Buenos Aires, Argentina.</span> <br/>
-  		    <span> Currently learning JavaScript, Node.js and Linux  </span></h2>
-          </div>
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-4" id="portraitPic">
-          <img class="img-responsive" src="Portrait.png" height="250" width="250" >
-          </div>
-        </div>
-        
- 
+    
+</body>
 
-
-   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
 </html>
