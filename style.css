@@ -2,7 +2,7 @@ body, html{
   margin: 0;
   width:100%;
   background-color:	#eaeaea;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Slabo 27px', serif;
   text-shadow: -0.6px -0.6px 0 #000, 0.6px -0.6px 0 #000, -0.6px 0.6px 0 #000, 0.6px 0.6px 0 #000;   
 }
 a, a:visited, a:hover, a:active {
@@ -14,6 +14,7 @@ a, a:visited, a:hover, a:active {
   padding-top:100px;
   padding-right:0 !important;
   padding-left:0 !important;
+  font-family: 'Philosopher', serif;
 }
 
 #showcase  img{
